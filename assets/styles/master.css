@@ -13,7 +13,7 @@ body #map {height: 100vh}
 
 .stable {
     position: relative;
-    left: 0px;
+    left: 200px;
     -webkit-transition: left .5s ease;
     -moz-transition: left .5s ease;
     -ms-transition: left .5s ease;
@@ -23,7 +23,7 @@ body #map {height: 100vh}
 }
 .toggling {
     position: relative;
-    left: 200px;
+    left: 0px;
     -webkit-transition: left .5s ease;
     -moz-transition: left .5s ease;
     -ms-transition: left .5s ease;
