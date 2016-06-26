@@ -47,6 +47,13 @@
 
     <div class="container" ui-view>
       <div id="map"></div>
+      <!-- [SCRIPT FOR LOADING THE MAP] -->
+      <script type="text/javascript">
+        var map = new mxn.Mapstraction('#map', 'openlayers');
+        var latlon = new mxn.LatLonPoint(51.50733, -0.12769);
+
+        map.setCenterAndZoom(latlon, 10);
+      </script>
     </div>
     <!--<div class="right-menu rightinpicture" ng-include="'templates/right-menu.html'"></div>-->
 
@@ -56,12 +63,6 @@
     <!--<script src="soapclient.js"></script>-->
     <!--<script src="angular.soap.js"></script>-->
 
-    <!-- [SCRIPT FOR LOADING THE MAP] -->
-    <script type="text/javascript">
-      var map = new mxn.Mapstraction('#map', 'openlayers');
-      var latlon = new mxn.LatLonPoint(51.50733, -0.12769);
 
-      map.setCenterAndZoom(latlon, 10);
-    </script>
   </body>
 </html>
