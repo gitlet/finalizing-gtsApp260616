@@ -1,0 +1,19 @@
+.right-menu-list {
+    list-style-type: none;
+    padding-top: 200px;
+}
+body .right-menu-list li.right-menu-items {
+    display: block;
+    padding: 10px;
+    border-left: 3px solid rgba(80, 192, 210, 0.83);
+    margin: 2px;
+}
+body .right-menu-list li.right-menu-items a {
+    color: #eeeeee;
+    text-decoration: none;
+    font-size: 19px;
+}
+body ul.right-menu-list li.right-menu-items a span {
+    position: absolute;
+    left: 40px;
+}

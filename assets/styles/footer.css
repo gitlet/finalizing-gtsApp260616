@@ -1,0 +1,30 @@
+/*.footer-list {*/
+    /*list-style-type: none;*/
+    /*clear: both;*/
+    /*background: linear-gradient(to bottom, rgba(50, 102, 197, 0.94),rgba(34, 67, 138, 0.76));*/
+    /*padding: 5px;*/
+    /*position: static;*/
+/*}*/
+/*.footer-list .footer-items {*/
+    /*display: inline-block;*/
+    /*margin: auto 15px 0 15px;*/
+    /*padding: 0 15px 0 15px;*/
+/*}*/
+/*.footer-list .footer-items a img {*/
+    /*!*border: 1px solid rgba(16, 60, 86, 0.54);*!*/
+    /*height: 44px;*/
+    /*width: 44px;*/
+/*}*/
+
+table {
+    background: linear-gradient(rgba(61, 79, 88, 0.92),rgba(91, 135, 173, 0.85));
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    z-index: 2;
+}
+table tr {text-align: center}
+table tr td a img {
+    height:44px;
+    width: 44px;
+}

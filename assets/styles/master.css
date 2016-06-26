@@ -1,0 +1,79 @@
+* {
+  margin: auto;
+  padding: 0; }
+
+body {
+  font-family: "Slabo 27px", serif;
+}
+body #map {height: 100vh}
+
+
+/*TOGGLING THE BODY AND LEFT MENU*/
+
+
+.stable {
+    position: relative;
+    left: 0px;
+    -webkit-transition: left .5s ease;
+    -moz-transition: left .5s ease;
+    -ms-transition: left .5s ease;
+    -o-transition: left .5s ease;
+    transition: left .5s ease;
+    overflow-x: hidden;
+}
+.toggling {
+    position: relative;
+    left: 200px;
+    -webkit-transition: left .5s ease;
+    -moz-transition: left .5s ease;
+    -ms-transition: left .5s ease;
+    -o-transition: left .5s ease;
+    transition: left .5s ease;
+}
+
+.header .logo a img {box-shadow: 0px 0px 20px rgb(41, 28, 115)}
+
+/*.sliding-rt {*/
+    /*left: 200px; *!*/
+    /*transition: left ease 0.5s;*/
+/*}*/
+.container {
+    /*border: 1px solid #000;*/
+    position: relative;
+    /*top: 86px;*/
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+
+/*# sourceMappingURL=master.css.map */
+
+body .left-menu {
+    background: linear-gradient(rgba(18, 27, 33, 0.88),rgba(28, 45, 62, 0.85));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -200px;
+  width: 200px;
+  height: 100vh;
+    /*z-index:-1;*/
+}
+/*.leftinpicture {*/
+  /*left: 0px;*/
+/*}*/
+
+/*body .right-menu {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*bottom: 0;*/
+  /*right: 0px;*/
+  /*width: 168px;*/
+  /*height: 100vh;*/
+/*}*/
+/*.rightinpicture {*/
+  /*right: 0px;*/
+/*}*/
