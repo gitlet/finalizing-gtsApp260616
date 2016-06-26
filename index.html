@@ -53,7 +53,15 @@
     <footer ng-include="'templates/footer.html'"></footer>
 
     <!-- [angular soap] -->
-    <script src="soapclient.js"></script>
-    <script src="angular.soap.js"></script>
+    <!--<script src="soapclient.js"></script>-->
+    <!--<script src="angular.soap.js"></script>-->
+
+    <!-- [SCRIPT FOR LOADING THE MAP] -->
+    <script type="text/javascript">
+      var map = new mxn.Mapstraction('#map', 'openlayers');
+      var latlon = new mxn.LatLonPoint(51.50733, -0.12769);
+
+      map.setCenterAndZoom(latlon, 10);
+    </script>
   </body>
 </html>

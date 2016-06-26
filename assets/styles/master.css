@@ -5,7 +5,7 @@
 body {
   font-family: "Slabo 27px", serif;
 }
-body #map {height: 100vh}
+body .container #map {height: 100vh}
 
 
 /*TOGGLING THE BODY AND LEFT MENU*/
